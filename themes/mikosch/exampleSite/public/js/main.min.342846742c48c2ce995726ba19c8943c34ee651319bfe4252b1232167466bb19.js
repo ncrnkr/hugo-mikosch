@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelectorAll("[data-toggle]");e.forEach(e=>e.addEventListener("click",()=>{const t=document.querySelector(e.dataset.toggle);t&&t.classList.toggle("open")}));const t=document.querySelectorAll("[data-reveal]");t.forEach((e,t)=>{const n=Math.min(t*120,480);setTimeout(()=>{e.classList.add("is-visible")},n)})})

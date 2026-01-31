@@ -1,6 +1,6 @@
 ---
 title: "Lorem Ipsum"
-image: "/images/page-contact.svg"
+image: "images/page-contact.svg"
 layout: "contact"
 ---
 

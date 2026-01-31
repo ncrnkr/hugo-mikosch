@@ -7,10 +7,10 @@
       {{ with $p.hero_intro }}<p class="lead">{{ . }}</p>{{ else }}<p class="lead">{{ $p.tagline }}</p>{{ end }}
       <div class="cta-row">
         {{ with $p.cta_primary }}
-          <a class="btn primary" href="{{ .url }}">{{ .text }}</a>
+          <a class="btn primary" href="{{ .url | relURL }}">{{ .text }}</a>
         {{ end }}
         {{ with $p.cta_secondary }}
-          <a class="btn ghost" href="{{ .url }}">{{ .text }}</a>
+          <a class="btn ghost" href="{{ .url | relURL }}">{{ .text }}</a>
         {{ end }}
       </div>
       {{ with $p.highlights }}
@@ -61,7 +61,7 @@
         <h2>{{ if $p.posts_title }}{{ $p.posts_title }}{{ else }}Latest Posts{{ end }}</h2>
         {{ with $p.posts_intro }}<p class="muted">{{ . }}</p>{{ end }}
       </div>
-      <a class="link-arrow" href="/posts/">See all</a>
+      <a class="link-arrow" href="{{ "/posts/" | relURL }}">See all</a>
     </div>
     <div class="grid">
       {{ range first 6 (where .Site.RegularPages "Section" "posts") }}

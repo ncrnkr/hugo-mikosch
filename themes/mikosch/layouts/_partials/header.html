@@ -1,6 +1,6 @@
 <div class="nav-bar">
   <div class="brand">
-    <a class="brand-link" href="/">
+    <a class="brand-link" href="{{ "/" | relURL }}">
       <span class="brand-mark"></span>
       <span class="brand-text">
         <span class="brand-title">{{ .Site.Title }}</span>
@@ -13,13 +13,13 @@
 
   <nav class="main-nav" aria-label="Main navigation">
     {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+      <a href="{{ .URL | relURL }}" title="{{ .Name }}">{{ .Name }}</a>
     {{ end }}
   </nav>
 </div>
 
 <nav id="mobile-nav" class="mobile-nav">
   {{ range .Site.Menus.main }}
-    <div><a href="{{ .URL }}">{{ .Name }}</a></div>
+    <div><a href="{{ .URL | relURL }}">{{ .Name }}</a></div>
   {{ end }}
 </nav>

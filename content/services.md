@@ -1,6 +1,6 @@
 ---
 title: "Lorem Ipsum"
-image: "/images/page-services.svg"
+image: "images/page-services.svg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

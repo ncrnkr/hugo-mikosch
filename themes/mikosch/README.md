@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/ncrnkr/hugo-mikosch/main/themes/mikosch/images/screenshot.png)
 
 Mikosch is a warm, editorial Hugo theme with bold serif headlines, soft gradients, and spacious cards. It is designed for personal portfolios, studios, and story-driven blogs.
 
@@ -27,6 +27,12 @@ Run the local server:
 
 ```bash
 hugo server -D --themesDir themes
+```
+
+Run the example site from the theme root:
+
+```bash
+hugo server -D --source exampleSite --themesDir ..
 ```
 
 ## Licence

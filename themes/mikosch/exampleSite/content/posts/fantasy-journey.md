@@ -1,7 +1,7 @@
 ---
 title: "Lorem Ipsum"
 date: 2026-01-30T12:00:00Z
-image: "/images/post-1.svg"
+image: "images/post-1.svg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

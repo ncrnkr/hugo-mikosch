@@ -29,6 +29,16 @@ Run the local server:
 hugo server -D --themesDir themes
 ```
 
+## Documentation
+
+- [Docs index](docs/index.md)
+- [Home](docs/home.md)
+- [Pages](docs/pages.md)
+- [Blog](docs/blog.md)
+- [Contact form](docs/contact-form.md)
+- [Theme configuration](docs/configuration.md)
+- [Assets and styling](docs/assets-and-styling.md)
+
 ## Licence
 
 Mikosch is licensed under the MIT license.

@@ -1,7 +1,8 @@
 baseURL = "https://example.com/"
 title = "Mikosch"
 languageCode = "en-us"
-theme = "mikosch"
+themesDir = ".."
+theme = "hugo-mikosch"
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod", ":fileModTime"]
